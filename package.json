@@ -1,0 +1,9 @@
+{
+  "name": "findtic",
+  "version": "1.0.0",
+  "description": "Web app about information system of HTM.",
+  "main": "server.js",
+  "repository": "git@github.com:AdhanIsCuber/findtic.git",
+  "author": "Wirya Ramadhan",
+  "license": "MIT"
+}
