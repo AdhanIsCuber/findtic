@@ -5,5 +5,9 @@
   "main": "server.js",
   "repository": "git@github.com:AdhanIsCuber/findtic.git",
   "author": "Wirya Ramadhan",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3"
+  }
 }
