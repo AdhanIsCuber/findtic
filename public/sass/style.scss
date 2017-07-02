@@ -1,17 +1,35 @@
+$font-brand: 'Montserrat Alternates',
+sans-serif;
 .demo-header-image {
     background-image: url(../img/city.jpg);
+    background-size: cover;
 }
 
 .demo-header {
     background-size: cover;
     background-color: #FF8F5E;
-    background-position: center top;
+    background-position: center center;
     margin-top: -100px;
-    min-height: 100vh;
+    height: 100vh;
+    .notfound {
+        padding-top: 5em !important;
+    }
 }
 
 .mask {
     background: url(../img/overlays/06.png);
     background-image: url(../img/city.jpg);
     background-size: cover;
+}
+
+.ft-btn-search {
+    margin-top: 1em;
+}
+
+.brand {
+    h4 {
+        font-family: $font-brand;
+        margin: 10px 10px;
+        font-weight: 400;
+    }
 }
